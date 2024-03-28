@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#hero-section{
+  min-height: 100vh;
+  background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+  width: 100%;
+}
+
+.website-logo img{
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.hero-section-main h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+@media  screen and (max-width: 765px)
+ {
+  #hero-section{
+    min-height: 70vh;
+    background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the whole section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+    width: 100%;
+    
+    
+  }
+}
+
+/* ___________________________________________________________Evolution____________________________________ */
+
+#evolution{
+  background: black;
+
+}
+
+#evolution h1{
+  font-family:sans-serif;
+}
+
+/* _________________________________________Believe______________________________ */
+
+.believe-section{
+  background: #222326;
+}
+
+.believe-video-section {
+
+  background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+  width: 100%;
+}
+
+
+@media  screen and (max-width: 765px)
+ {
+  .believe-video-section{
+ 
+    background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the whole section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+    width: 100%;
+    
+    
+  }
+}
+
+/* ----------------------------------Footer----------------------------------- */
+.footer{
+  background: black;
+}
