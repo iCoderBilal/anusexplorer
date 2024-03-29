@@ -18,7 +18,7 @@ function Hero() {
                 <p className="mt-6 lg:mb-20 mb-14 text-[4.5vw] lg:text-[1.5vw] lg:pl-[350px] lg:pr-[350px] pl-3 pr-3 text-slate-300 lg:leading-[1.9vw] text-center">
                 Join us on a journey to the stars with $ANUS.</p>
 
-                <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">Future with $URANUS</a>
+                <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">Future with $ANUS</a>
             </div>
       
         </div>
