@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './index.css';
 import './App.css';
 import Hero from './components/Hero';
@@ -13,6 +13,7 @@ import AOS from 'aos';
 
 
 function App() {
+  const believeRef = useRef(null);
 
   useEffect(() => {
     AOS.init({
@@ -22,11 +23,11 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Hero />
+      <Hero scrollToBelieve={() => believeRef.current?.scrollIntoView({ behavior: 'smooth' })} />
       <Evolution />
       <Influence />
       <Innovators />
-      <Believe />
+      <Believe ref={believeRef} />
       <Footer />
     </div>
   );

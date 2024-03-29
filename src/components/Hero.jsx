@@ -1,7 +1,7 @@
 import webLogo from "../assets/anus_large.gif"
 import 'aos/dist/aos.css';
 
-function Hero() {
+function Hero({ scrollToBelieve }) {
     return(
         <>
         <div className="hero-centered">
@@ -19,6 +19,9 @@ function Hero() {
                 Join us on a journey to the stars with $ANUS.</p>
 
                 <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">Future with $ANUS</a>
+                <button onClick={scrollToBelieve} className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">
+                    How to buy $ANUS
+                </button>
             </div>
       
         </div>
