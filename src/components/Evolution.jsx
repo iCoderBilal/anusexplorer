@@ -1,4 +1,4 @@
-import evolution from "../assets/evolution.png"
+import evolution from "../assets/evolution.webp"
 
 
 function Evolution(){
