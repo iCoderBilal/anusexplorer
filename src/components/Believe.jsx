@@ -18,34 +18,41 @@ const Believe = forwardRef((props, ref) => {
       <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
         <h2 className="text-3xl font-semibold mb-3">1. Prepare For Entry</h2>
         <p>
-        Download and Set Up Solflare Wallet: Begin by visiting <a href="https://solflare.com/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Solflare's website</a> to download the Solflare wallet. Follow the instructions to set up your wallet and securely store your seed phrase. If you prefer using a hardware wallet, Solflare supports connections with devices like Ledger.  (You will get randomly sent nfts, almost all of them are scams, ignore them.)
-        </p>
-      </div>
-
-      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
-        <h2 className="text-3xl font-semibold mb-3">2. Get Your Injection Ready</h2>
-        <p>
-          Fund Your Wallet with Solana (SOL): To engage in transactions on the Solana network, you'll need SOL, the native cryptocurrency, to cover transaction fees (gas). You can acquire SOL through centralized exchanges by trading fiat or other cryptocurrencies. Once you have SOL, withdraw it to your Solflare wallet address.
+        Buy Solana (SOL) on any exchange. 
         </p>
         <p className="mt-4">
-          For those familiar with Metamask or Rabby, who may already have Ethereum consider using the <a href="https://core.allbridge.io/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Allbridge Core bridge</a> for a seamless transfer experience.
+        Install <a href="https://solflare.com/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Solflare Wallet</a>. Follow the instructions to set up your wallet and securely store your seed phrase.
         </p>
-      </div>
-
-      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
-        <h2 className="text-3xl font-semibold mb-3">3. Inject Your Liquidity Into Uranus</h2>
-        <p>
-        Connect to a Decentralized Exchange (DEX): With your wallet funded, head over to Jupiter, a popular DEX on the Solana network, by visiting <a href="https://jup.ag/swap/SOL-ANUS_9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">jup.ag</a>. Connect your Solflare wallet to Jupiter to begin the trading process. 
         <p className="mt-4">
-        The contract address for the $ANUS token is: 9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc 
-          </p>
+        Withdraw SOL from your exchange to your Solflare wallet (Copy/paste your Solflare address).
         </p>
       </div>
 
       <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
-        <h2 className="text-3xl font-semibold mb-3">4. Watch others pump Uranus</h2>
+        <h2 className="text-3xl font-semibold mb-3">2. Get into Uranus ($ANUS)</h2>
         <p>
-        Tracking ANUS Token: After completing your transaction, you might want to keep an eye on your investment. Use DEX tools like <a href="https://dexscreener.com/solana/cu4pxu7vh7cfgjmsfzfehpp9aj6fa7ciqdsbvs5hekzk" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">DEX Screener</a> to monitor the latest market data and performance of the ANUS token.
+        Go to <a href="https://jup.ag/swap/SOL-ANUS_9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Jupiter Exchange</a> to buy $ANUS. You'll be warned it's not on the strict list.
+        </p>
+        <p className="mt-4">
+        Confirm you&apos;re not putting it in the wrong $ANUS. The token address should begin/end with <a href="https://solscan.io/token/9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">9hjZ...6BZc</a>.
+        </p>
+        
+        <p className="mt-4">
+        Hit "Connect Wallet" and select your Solflare wallet. 
+        </p>
+        
+        <p className="mt-4">
+        Click "Swap" to trade your $SOL for $ANUS.
+        </p>
+      </div>
+
+      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold mb-3">3. Keep pumping Uranus</h2>
+        <p>
+        Spread Uranus by sharing this link <a href="https://anusexplorer.com/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">https://anusexplorer.com/</a>
+        </p>
+        <p className="mt-4">
+        Watch the charts as Uranus gets pumped on <a href="https://dexscreener.com/solana/cu4pxu7vh7cfgjmsfzfehpp9aj6fa7ciqdsbvs5hekzk" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">DEX Screener</a>
         </p>
       </div>
     </div>
