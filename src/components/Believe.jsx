@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 const Believe = forwardRef((props, ref) => {
   return (
     <>
-      <div ref={ref} className="bg-gradient-to-br from-purple-800 to-blue-600 min-h-screen p-5 lg:p-10 text-white">
+      <div id="how-to-buy" ref={ref} className="bg-gradient-to-br from-purple-800 to-blue-600 min-h-screen p-5 lg:p-10 text-white">
   <div className="max-w-4xl mx-auto">
     <h1 className="text-4xl lg:text-5xl font-bold text-center mb-10 underline">
       Journey to Uranus: Acquire $ANUS
