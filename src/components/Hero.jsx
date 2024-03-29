@@ -17,11 +17,20 @@ function Hero({ scrollToBelieve }) {
                 </h1>
                 <p className="mt-6 lg:mb-20 mb-14 text-[4.5vw] lg:text-[1.5vw] lg:pl-[350px] lg:pr-[350px] pl-3 pr-3 text-slate-300 lg:leading-[1.9vw] text-center">
                 Join us on a journey to the stars with $ANUS.</p>
-
-                <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">Future with $ANUS</a>
-                <button onClick={scrollToBelieve} className="mx-auto text-center mt-10 py-[15px] px-[40px] bg-custom-blue lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px]">
-                    How to buy $ANUS
+                <div className="flex flex-col lg:flex-row justify-center items-center mt-10 space-y-4 lg:space-y-0 lg:space-x-8">
+                <a
+                    href="https://coinmarketcap.com/currencies/uranus-sol/"
+                    className="flex justify-center items-center py-[15px] px-[40px] bg-custom-blue hover:bg-blue-700 transition duration-300 ease-in-out lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px] shadow-lg hover:shadow-xl"
+                    style={{ textDecoration: 'none' }}>
+                    <span className="mr-2">🚀</span> Future with $ANUS
+                </a>
+                <button
+                    onClick={scrollToBelieve}
+                    className="flex justify-center items-center py-[15px] px-[40px] bg-transparent hover:bg-blue-700 border-2 border-custom-blue hover:border-transparent transition duration-300 ease-in-out lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-custom-blue hover:text-white rounded-[40px] shadow-lg hover:shadow-xl"
+                    style={{ outline: 'none' }}>
+                    <span className="mr-2">💰</span> How to buy $ANUS
                 </button>
+                </div>
             </div>
       
         </div>
