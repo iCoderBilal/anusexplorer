@@ -1,4 +1,4 @@
-import influence from "../assets/influence.png"
+import influence from "../assets/influence.webp"
 
 
 function Influence(){

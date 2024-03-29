@@ -6,7 +6,7 @@
 
 #hero-section{
   min-height: 100vh;
-  background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
+  background-image: url("./assets/Hero-Bg.webp"); /* Path to your image */
   background-size: cover; /* Ensure the image covers the whole section */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
@@ -31,7 +31,7 @@
  {
   #hero-section{
     min-height: 70vh;
-    background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
+    background-image: url("./assets/Hero-Bg-mb.webp"); /* Path to your image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
@@ -60,7 +60,7 @@
 
 .believe-video-section {
 
-  background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
+  background-image: url("./assets/Hero-Bg.webp"); /* Path to your image */
   background-size: cover; /* Ensure the image covers the whole section */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
@@ -72,7 +72,7 @@
  {
   .believe-video-section{
  
-    background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
+    background-image: url("./assets/Hero-Bg-mb.webp"); /* Path to your image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */

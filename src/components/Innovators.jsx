@@ -1,4 +1,4 @@
-import innovators from "../assets/Innovators.png";
+import innovators from "../assets/Innovators.webp";
 
 function Innovators() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import webLogo from "../assets/anus_large.gif";
+import webLogo from "../assets/anus_large.avif";
 import 'aos/dist/aos.css';
 
 function Hero({ scrollToBelieve }) {
