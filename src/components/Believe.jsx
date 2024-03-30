@@ -34,7 +34,7 @@ const Believe = forwardRef((props, ref) => {
         Go to <a href="https://jup.ag/swap/SOL-ANUS_9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Jupiter Exchange</a> to buy $ANUS. You'll be warned it's not on the strict list.
         </p>
         <p className="mt-4">
-        Confirm you&apos;re not putting it in the wrong $ANUS. The token address should begin/end with <a href="https://solscan.io/token/9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">9hjZ...6BZc</a>.
+        Confirm you&apos;re not putting it in the wrong $ANUS. The token address should be <a href="https://solscan.io/token/9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc</a>.
         </p>
         
         <p className="mt-4">
