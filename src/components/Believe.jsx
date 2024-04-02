@@ -1,9 +1,12 @@
-import React, { forwardRef } from 'react';
+import React, { useRef } from 'react';
 
-const Believe = forwardRef((props, ref) => {
+const Believe = ({refSec}) => {
+
+
+
   return (
     <>
-      <div id="how-to-buy" ref={ref} className="bg-gradient-to-br from-purple-800 to-blue-600 min-h-screen p-5 lg:p-10 text-white">
+      <div id="how-to-buy" ref={refSec} className="bg-gradient-to-br from-purple-800 to-blue-600 min-h-screen p-5 lg:p-10 text-white">
   <div className="max-w-4xl mx-auto">
     <h1 className="text-4xl lg:text-5xl font-bold text-center mb-10 underline">
       Journey to Uranus: Acquire $ANUS
@@ -34,7 +37,7 @@ const Believe = forwardRef((props, ref) => {
         Go to <a href="https://jup.ag/swap/SOL-ANUS_9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Jupiter Exchange</a> to buy $ANUS. You'll be warned it's not on the strict list.
         </p>
         <p className="mt-4">
-        Confirm you&apos;re not putting it in the wrong $ANUS. The token address should be <a href="https://solscan.io/token/9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc</a>.
+        Confirm you&apos;re not putting it in the wrong $ANUS. The token address should be <a href="https://solscan.io/token/9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc" className="token-address underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc</a>.
         </p>
         
         <p className="mt-4">
@@ -65,7 +68,7 @@ const Believe = forwardRef((props, ref) => {
 
 
       <div className="believe-video-section pb-20">
-        <h1 className="text-[6vw] lg:text-5xl xl:text-6xl 2xl:text-7xl lg:px-[15vw] px-4 text-center text-white font-bold">
+        <h1 className="pt-16 text-[6vw] lg:text-5xl xl:text-6xl 2xl:text-7xl lg:px-[15vw] px-4 text-center text-white font-bold">
           The Story of The Shiba Inu Army Pumping Uranus
         </h1>
         <div className="flex justify-center mt-10">
@@ -88,13 +91,14 @@ const Believe = forwardRef((props, ref) => {
         <p className="mt-8 mb-14 text-[3.5vw] lg:text-lg xl:text-xl 2xl:text-2xl lg:px-[33vw] px-4 text-white text-center">
           Welcome to the wild side of crypto - where memes aren't just dreams, and astrology isn’t just your daily horoscope.
         </p>
-        
-        <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="block mx-auto text-center py-3 px-8 bg-blue-500 text-lg lg:text-xl xl:text-2xl font-semibold text-white rounded-full hover:bg-blue-600 transition-colors duration-300 ease-in-out">
-          Get Started
+        <div className='flex justify-center'>
+        <a href="https://dexscreener.com/solana/cu4pxu7vh7cfgjmsfzfehpp9aj6fa7ciqdsbvs5hekzk" className="mx-auto text-center py-3 px-12 bg-blue-500 text-lg lg:text-xl xl:text-2xl font-semibold text-white rounded-full hover:bg-blue-600 transition-colors duration-300 ease-in-out">
+          View Chart On DexScreener
         </a>
+        </div>
       </div>
     </>
   );
-});
+}
 
 export default Believe;

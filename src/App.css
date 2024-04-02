@@ -83,3 +83,17 @@
 }
 
 /* ----------------------------------Footer----------------------------------- */
+
+#brown-video {
+
+  background-image: url("./assets/Hero-Bg-mb.png");  /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+  width: 100%;
+}
+
+
+.token-address{
+  word-wrap: break-word;
+}

@@ -1,15 +1,21 @@
 import React from 'react';
 import webLogo from "../assets/anus_large.avif";
 import 'aos/dist/aos.css';
+import Header from './Header';
+import { Link } from 'react-router-dom';
 
-function Hero({ scrollToBelieve }) {
+
+function Hero({refSec}) {
+
+    const scrollToSection = () => {
+        refSec.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+    
     return(
         <>
         <div className="hero-centered">
             <div id="hero-section">
-                <div className="website-logo pt-8">
-                    <img src={webLogo} alt="Uranus Logo" className="w-[25vw] lg:w-[9vw] mx-auto" />
-                </div>
+                <Header linkToBuy={ refSec} />
                 <div className="hero-section-main pb-20">
                     <h1 data-aos="zoom-in" className="pt-16 lg:pt-32 text-[10vw] lg:text-[4vw] lg:pl-[250px] lg:pr-[250px] pl-3 pr-3 leading-[12vw] lg:leading-[5.5vw] text-center font-bold" >
                     Explore the Universe of
@@ -19,14 +25,16 @@ function Hero({ scrollToBelieve }) {
                     <p className="mt-6 lg:mb-20 mb-14 text-[4.5vw] lg:text-[1.5vw] lg:pl-[350px] lg:pr-[350px] pl-3 pr-3 text-slate-300 lg:leading-[1.9vw] text-center">
                     Join us on a journey to the stars with $ANUS.</p>
                     <div className="flex flex-col lg:flex-row justify-center items-center mt-10 space-y-4 lg:space-y-0 lg:space-x-4">
+                    <Link to="/brownpaper">
                         <a
-                            href="https://coinmarketcap.com/currencies/uranus-sol/"
+                           
                             className="flex justify-center items-center py-[15px] px-[40px] bg-custom-blue hover:bg-blue-700 transition duration-300 ease-in-out lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-white rounded-[40px] shadow-lg hover:shadow-xl"
                             style={{ textDecoration: 'none' }}>
-                            <span className="mr-2">🚀</span> Future with $ANUS
+                           <span className="mr-2">🚀</span> Brown Paper
                         </a>
+                        </Link>
                         <button
-                            onClick={scrollToBelieve}
+                            onClick={scrollToSection}
                             className="flex justify-center items-center py-[15px] px-[40px] bg-transparent hover:bg-blue-700 border-2 border-custom-blue hover:border-transparent transition duration-300 ease-in-out lg:text-[1.5vw] lg:leading-[2.2vw] font-semibold text-custom-blue hover:text-white rounded-[40px] shadow-lg hover:shadow-xl"
                             style={{ outline: 'none' }}>
                             <span className="mr-2">💰</span> How to buy $ANUS
