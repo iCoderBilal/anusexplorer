@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Homepage from './components/Homepage';
 import BrownPaper from './components/BrownPaper';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
@@ -24,8 +24,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path='/brownpaper' element={<BrownPaper />} />
+          <Route path="" element={<Homepage />} />
+          <Route path='brownpaper' element={<BrownPaper />} />
 
 
 
