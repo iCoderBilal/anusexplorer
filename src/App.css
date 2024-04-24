@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 #hero-section{
   min-height: 100vh;
   background-image: url("./assets/Hero-Bg.webp"); /* Path to your image */
